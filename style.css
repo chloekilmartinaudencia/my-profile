@@ -1,0 +1,184 @@
+/* Global styles for the body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #FFC1CC, #F4A1D8); /* Gradient background (pink tones) */
+  color: #2E2E2E; /* Dark gray text for readability */
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+  text-align: center;
+}
+
+/* Main header */
+header h1 {
+  font-family: 'Pacifico', cursive; /* Fancy cursive font */
+  color: #FFFFFF; /* White text */
+  font-size: 3.5em;
+  margin: 20px 0;
+  text-shadow: 2px 2px 5px #FF69B4; /* Glowing pink shadow */
+}
+
+header p {
+  font-size: 1.4em;
+  color: #F8F8F8;
+  margin-bottom: 30px;
+}
+
+/* Section headers */
+section h2 {
+  font-family: 'Pacifico', cursive;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  margin: 30px 0 10px;
+  text-shadow: 1px 1px 4px #FF69B4;
+}
+
+/* Section paragraphs */
+section p {
+  font-family: 'Dancing Script', cursive; /* Creative and elegant font */
+  font-size: 1.3em; /* Slightly larger for emphasis */
+  color: #2E2E2E; /* Dark gray for contrast */
+  margin: 0 auto;
+  max-width: 600px; /* Limit paragraph width */
+  background: rgba(255, 255, 255, 0.8); /* Soft white background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  letter-spacing: 0.5px; /* Adds a touch of elegance */
+  line-height: 1.8; /* Improves readability */
+}
+
+/* Links */
+a {
+  color: #FF69B4; /* Hot pink */
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #FF1493; /* Brighter pink on hover */
+  text-decoration: underline;
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Social links section */
+footer h2 {
+  font-family: 'Pacifico', cursive;
+  color: #FFFFFF;
+  font-size: 2.2em;
+  margin-top: 40px;
+  text-shadow: 1px 1px 4px #FF69B4;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer ul li a {
+  font-size: 1.3em;
+  color: #FFFFFF; /* White links */
+  background: #FF69B4; /* Hot pink background for buttons */
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  background: #FF1493; /* Brighter pink on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Hover shadow effect */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Background design for sections */
+section {
+  margin-bottom: 50px;
+  padding: 20px 0;
+}
+
+section:nth-child(even) {
+  background: rgba(255, 255, 255, 0.2); /* Alternating sections */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+  .container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 3em;
+  }
+
+  section h2 {
+    font-size: 2.2em;
+  }
+
+  section p {
+    font-size: 1.2em;
+    max-width: 90%; /* Adjust paragraph width for smaller screens */
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  section h2 {
+    font-size: 1.8em;
+  }
+
+  section p {
+    font-size: 1.1em;
+    padding: 10px; /* Reduce padding for tighter layouts */
+  }
+
+  footer ul li a {
+    font-size: 1.1em;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 100%; /* Full width for very small screens */
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
+  }
+
+  section h2 {
+    font-size: 1.6em;
+  }
+
+  section p {
+    font-size: 1em;
+    padding: 8px; /* Compact padding for smaller screens */
+  }
+
+  footer ul li a {
+    font-size: 1em;
+    padding: 6px 10px;
+  }
+}
+
